@@ -13,7 +13,7 @@ module.exports = {
       uuid: {
         type: Sequelize.UUID,
         allowNull: false,
-        defaultValue: Sequelize.UUIDV4
+        defaultValue: Sequelize.literal(`gen_random_uuid()`)
       },
       chat_id: {
         type: Sequelize.BIGINT,
@@ -23,6 +23,11 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         allowNull: false,
         defaultValue: true
+      },
+      state: {
+        type: Sequelize.TEXT,
+        allowNull: false,
+        defaultValue: "{\"state\":\"\",\"data\":{}}"
       },
       join_at: {
         type: Sequelize.DATE,

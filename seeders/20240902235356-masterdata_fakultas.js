@@ -7,7 +7,6 @@ module.exports = {
   async up (queryInterface, Sequelize) {
     await queryInterface.bulkInsert('masterdata_fakultas' ,[
       {
-        uuid: uuidv4(),
         kode: 'G',
         nama: 'Kampus UPI di Cibiru'
       }

@@ -13,7 +13,7 @@ module.exports = {
       uuid: {
         type: Sequelize.UUID,
         allowNull: false,
-        defaultValue: Sequelize.UUIDV4
+        defaultValue: Sequelize.literal(`gen_random_uuid()`)
       },
       nomor: {
         type: Sequelize.BIGINT,
