@@ -15,6 +15,10 @@ module.exports = {
         allowNull: false,
         defaultValue: Sequelize.literal(`gen_random_uuid()`)
       },
+      username: {
+        type: Sequelize.TEXT,
+        allowNull: false,
+      },
       chat_id: {
         type: Sequelize.BIGINT,
         allowNull: false
