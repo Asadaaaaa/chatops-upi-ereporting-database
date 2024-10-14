@@ -9,11 +9,14 @@ const {data: iku_5_additional }= require('./iku/iku-5-additional.js');
 const {data: iku_7 }= require('./iku/iku-7.js');
 const {data: iku_7_additional }= require('./iku/iku-7-additional.js');
 const {data: iku_10 }= require('./iku/iku-10.js');
+const {data: iku_10_additional }= require('./iku/iku-10-additional.js');
 const {data: iku_13_15_16 }= require('./iku/iku-13-15-16.js');
 const {data: iku_13_16_additional }= require('./iku/iku-13-16-additional.js');
 const {data: iku_17 }= require('./iku/iku-17.js');
-const {data: iku_17_18_additional }= require('./iku/iku-17-18-additional.js');
+const {data: iku_17_additional }= require('./iku/iku-17-additional.js');
+const {data: iku_18_additional }= require('./iku/iku-18-additional.js');
 const {data: iku_18_21_22_23 }= require('./iku/iku-18-21-22-23.js');
+const {data: iku_21_additional }= require('./iku/iku-21-additional.js');
 const {data: iku_22_additional }= require('./iku/iku-22-additional.js');
 const {data: iku_23_additional }= require('./iku/iku-23-additional.js');
 
@@ -50,6 +53,7 @@ module.exports = {
         nomor: 10,
         nama: 'Jumlah Penelitian Yang Didanai Pihak Luar',
         data: JSON.stringify(iku_10),
+        additional_data: JSON.stringify(iku_10_additional),
       },
       {
         nomor: 13,
@@ -72,18 +76,19 @@ module.exports = {
         nomor: 17,
         nama: 'Mahasiswa Yang Meraih Prestasi Minimal Tingkat Nasional',
         data: JSON.stringify(iku_17),
-        additional_data: JSON.stringify(iku_17_18_additional),
+        additional_data: JSON.stringify(iku_17_additional),
       },
       {
         nomor: 18,
         nama: 'Dosen Membina Mahasiswa Yang Berhasil Meraih Prestasi Paling Rendah Tingkat Nasional Dalam 5 (lima) Tahun Terakhir',
         data: JSON.stringify(iku_18_21_22_23),
-        additional_data: JSON.stringify(iku_17_18_additional),
+        additional_data: JSON.stringify(iku_18_additional),
       },
       {
         nomor: 21,
         nama: 'Dosen Tetap Yang Memiliki Sertifikat Kompetensi/Profesi Yang Diakui Oleh Industri dan Dunia Kerja',
         data: JSON.stringify(iku_18_21_22_23),
+        additional_data: JSON.stringify(iku_21_additional),
       },
       {
         nomor: 22,

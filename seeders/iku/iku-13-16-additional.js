@@ -16,7 +16,8 @@ const data = {
       no: 4,
       nama: 'Desain Industri'
     },
-  ]
+  ],
+  file_manual_book: null
 }
 
 module.exports = {

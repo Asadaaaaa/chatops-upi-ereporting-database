@@ -9,6 +9,7 @@ const data = {
       nama: 'Tidak Aktif'
     },
   ],
+  file_surat_pengangkatan: null
 }
 
 module.exports = {

@@ -91,7 +91,8 @@ const data = {
       no: 3,
       nama: 'Masyarakat'
     },
-  ]
+  ],
+  file_surat_tugas: null
 }
 
 module.exports = {

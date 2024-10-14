@@ -17,6 +17,7 @@ const data = {
       nama: 'Internasional'
     },
   ],
+  file_sertifikat: null
 }
 
 module.exports = {

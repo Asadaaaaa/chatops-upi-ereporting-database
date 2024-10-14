@@ -35,7 +35,8 @@ const data = {
       nama: 'Short Course'
     },
   ],
-  negara: null
+  negara: null,
+  file_surat_keputusan: null
 }
 
 module.exports = {

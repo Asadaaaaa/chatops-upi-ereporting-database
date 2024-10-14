@@ -62,7 +62,8 @@ const data = {
       no: 7,
       nama: 'Lainnya'
     },
-  ]
+  ],
+  file_sertifikat: null
 }
 
 module.exports = {

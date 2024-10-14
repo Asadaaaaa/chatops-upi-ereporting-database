@@ -110,7 +110,8 @@ const data = {
       no: 17,
       nama: 'Pemberdayaan Masyarakat Berkelanjutan (P2MB)/KKNT'
     },
-  ]
+  ],
+  file_surat_tugas: null
 }
 
 module.exports = {
